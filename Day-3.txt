@@ -1,0 +1,131 @@
+    	Abstract class
+       
+      
+   abstract class Employee
+      {  int a;
+        
+       abstract methods //Declaring without implementation
+        abstract void doatask();
+        abstract void doatask2();  
+
+        non abstract methods //Declaring with implementation
+         void doatask3
+            {.....          //defenition/implementation
+             .........}
+          }
+
+  class Manager extends Employee
+      {
+      void doatask()
+        {....
+         .......}		//Defenitions
+      void doatask2()
+        {......
+         .........}
+        
+        @Override
+        void doaatask3()
+         {.........
+          ............}}
+
+Class MainModule{
+      p.sv.main(String args[])
+{
+        Employee obj= new Manager();
+          obj.doatask();
+          obj.doatask2();
+          obj.doaatask3()
+ }
+
+==============================================================
+
+abstarct classes(extended)
+Interfaces(implemented)
+================
+     only abstract methods
+     member variables===final
+      interface Employee{
+        
+
+              int a;
+        
+       abstract methods //Declaring without implementation
+        abstract void doatask();
+        abstract void doatask2();  
+
+    }
+
+ class Manager implements Employee
+      { int a;
+      void doatask()
+        {....
+         .......}		//Defenitions
+      void doatask2()
+        {......
+         .........}
+        
+        @Override
+        void doaatask3()
+         {.........
+          ............}}  
+
+
+
+............................
+
+Class Sample
+{
+
+int a;//global
+void add()
+{ int a; //
+}   
+
+void main()
+{
+
+}  }  
+
+global int a;
+
+
+
+
+
+===================================================================
+               Copy(Cloning)
+
+
+========================================================================
+
+              Shallow copy---Only the refernece gets copied.
+
+
+              class Sample
+               {
+                int a;
+                 double b;
+                  Sample(int a, float b)
+                    { 
+                     this.a=a
+                      this.b=b}}
+		main()
+               { Sample obj= new Sample(4,5.0)
+                 Sample   obj1=obj}
+     shallow copied to obj2
+       
+
+  Stack memory    data                 values
+  Heap memory    int []                 int []
+======================================
+              Deep copy 
+	      Lazy copy
+
+
+=======
+
+arrays
+     int []a={10,5,4,6}
+      int b[]=a;
+     int []b= new int(4) ;
+        b=a;

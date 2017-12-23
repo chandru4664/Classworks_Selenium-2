@@ -1,0 +1,53 @@
+Collections
+----------
+List
+	ArrayList
+	LinkedList
+
+Set
+	HashSet
+	Linked hasSet
+        TreeSet
+
+----------------------------
+
+
+ArrayList
+==========
+   Advantage=Random Access using index
+   Disadv- seletion is costly
+               10
+
+     a[0,1,2,3,   4......9]
+       
+              
+       for ((..)
+          a[i]=a[i+1]
+
+
+Arraylist <Student>a=new ArrayList<String>();
+int []a = new int(10);
+for(int i:a)   //for ..each loop
+  {SOP(i);}
+
+Iterator
+===============
+LinkedList
+==========
+Disadv: No indexing
+advantages: easy insertion deletion
+
+Double linked list
+=================
+
+Set
+	HashSet-
+             No dupilates allowed
+              hashing
+
+
+
+reference to previous| data  |refernec to next
+
+   null;              | 1    |;    pts to 2     
+=====================================================================

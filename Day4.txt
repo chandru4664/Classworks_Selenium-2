@@ -1,0 +1,78 @@
+       Access Specifiers
+    ----------------------
+   private-Onle in same class 
+   
+   protected--only for that pkg.subclasses outside pkg  
+     
+       eg; pkg 1: protected Class A   pkg 2:Class B extends A => Access to A.
+   
+   public-anywhere
+   
+   default-Only for that pkg 
+         eg; pkg 1:  Class A   pkg 2:Class B extends A . => No acces to A
+
+
+
+
+
+static variables/class variables.
+
+--------------
+  Class Sample
+      {
+       private int i; //instance variable
+     static int classvariable; //like a global
+       public int geti()
+         {return i;}
+       public void seti(int i)
+         {this.i=i;}
+        public void add()
+       .........
+      
+   }
+ Class Mainmodule
+{ p.sv.main(string args[])
+   {.......Sample obj=new sample();
+            obj.seti(5);
+            obj.geti();
+             Sample.classvariable;
+    .............
+    } 
+  }
+
+------------------------------------------------------------------------------------
+    Final....
+================
+      final class  => cannot be inherited. eg Wrapper classses-String , Integer ......
+
+
+        abstact class ==>non abstarct methods and abstract methods.
+        final abstract class A  ??  not possible since abstract class shud be inherited.
+    
+       final method => cannot be overide
+       final variable => cannot be changed once it is assigned 
+
+
+
+
+========================
+
+
+           
+          one to one
+          one to many==> Department has employees
+                           employees[]--array of objects
+           many to many =====>
+             
+            Asscociation -------
+                            (1)composition
+                                 Death realtion 
+                                   house ---room
+                                    one to one /one to many
+                             (2)Aggregation----
+                                  professor     
+                                                department
+    
+                            
+
+   

@@ -1,0 +1,9 @@
+calling stack
+push --insertion
+pop---deletion
+=============
+m()	|
+n()	| 
+p()	|
+main()	|
+---------

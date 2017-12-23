@@ -1,0 +1,148 @@
+     String a="Teststring";
+     String a = new String("Teststring");
+   
+
+
+String Stack
+
+
+
+
+         OOPS(Object Oriented)
+==============
+         Procedural way 
+            Unstructured -COBOL
+
+     Top to bottom
+        a: stsmt1
+            stmnt2
+            stmnt 3 goto a
+               
+	    Structured-FORTRAN,c
+
+               Actions(Verbs)
+          1.insert the card
+	   2.Type in the PIN
+           3.Withdraw money
+	   4.Take out the card		
+
+      Created a bank account deposited money.
+      withdrawing money with debit card.
+
+
+
+==============oops--c++,Java,Python========
+       Behaviour and features
+      Classes==>Blueprint/Templete
+       Object is an instance of class
+        1.Data Abstaction- Hiding the implementation details
+	2.Encapsulation-Wrapping up 
+	3.Inheritance- Automobile
+	4.Poloymorphism- Many Behaviour.
+
+
+
+==========================================
+   Class <classname>
+	{
+
+int a;
+ void add()
+{
+.......
+..........}
+    Member variables
+    Fuctions
+}
+
+Object 
+
+ <classname> <objectname> = new <classname>();
+<objectname>.a
+<objectname>.add()
+
+
+
+
+======================================
+
+Stack memeory   Heap memory   method stack 
+
+                  int a
+                   Float b;     add();
+
+obj1
+
+
+
+===================================
+    Constructors
+==================
+     Initialized variables
+      int sum(int a, int b)
+        {int s=0;
+          s=a+b;
+        retrun sum;}
+
+
+
+
+
+Access Sepecifiers--
+      public
+      private- private int a;Getters and setters
+      protected- same pkg
+================================================
+ Polymorphism
+
+   
+         Method overloading(Compiletime polymorphism) 
+          Same name different signatures
+            void sum(int a)
+             {.....
+              ........}
+             void sum(int a, int b)
+              {.......
+              ..........}
+       main{
+         sum(5);
+      sum(5,10)}
+         Method overriding  (runtime polymorphism)
+
+           same name and same parameters
+           is a relation ship(inheritance)
+            has a relationship
+
+
+Base class employee-id name salary 
+	company name
+ 	address
+	designation
+subclass  tester developer manager team lead 
+ Compile time polymorphism(Method overloading)
+ Runtime polymorphism(Method overiding- is arelation)
+	Class Employee
+	{int a;
+	void task()
+		{.....
+		......}}
+         Class Manger extends Employee
+          {
+           void task()
+             {.....
+              .....}}
+          Class Tester extends Employee
+          {
+           void task()
+             {.....
+              .....}}
+	class Main{
+          	Employee o; //using base class instance variable to create object of subclasses
+           	o=new Employee();
+          	o.task();
+                 Employee o2= new Manager();
+                  o2.task();//Invokes Mangers task()
+                 Employee o3= new Tester();
+                 o2.task();//Invokes Testers task()
+          
+           
