@@ -1,0 +1,21 @@
+
+Connection pooling
+
+Connection pooling is a mechanism to create and maintain a collection of JDBC connection objects. 
+The primary objective of maintaining the pool of connection object is to leverage re-usability and improve the overall performance of the application.
+
+1. Introduction
+JDBC stands for Java Database Connectivity, which is a standard Java API for database-independent connectivity between the Java programming language and a  wide range of databases.
+The JDBC library includes API for each of the tasks commonly associated with the database usage:
+Making a connection to the database.
+Creating SQL statements.
+Executing SQL queries in the database.
+Viewing and Modifying the resulting records.
+
+
+JNDI
+The Java Naming and Directory Interface (JNDI) is an application programming interface (API) for accessing different kinds of naming and directory services.
+ JNDI is not specific to a particular naming or directory service, it can be used to access many different kinds of systems including file systems; distributed objects systems like CORBA, Java RMI, and EJB; and directory services like LDAP, Novell NetWare, and NIS+.
+JNDI is similar to JDBC in that they are both Object-Oriented Java APIs that provide a common abstraction for accessing services from different vendors. 
+While JDBC can be used to access a variety of relational databases, JNDI can be used to access a variety of of naming and directory services. 
+
